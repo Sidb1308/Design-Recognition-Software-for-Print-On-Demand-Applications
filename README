@@ -1,0 +1,18 @@
+This repository contains a software program developed for Print-On-Demand applications by the startup PRINTAZIX. The software is designed to be installed on a user's computer and facilitates the recognition of specific designs within images, particularly on images with multiple designs. The output of the code is an executable (.exe) file.
+
+Project Overview:
+
+The software utilizes Computer Vision techniques, specifically OpenCV and SIFT (Scale-Invariant Feature Transform), for design recognition. By processing two images, one containing various designs and the other containing a specific design, the software identifies and locates the desired design within the image with multiple designs.
+
+Key Features:
+
+Utilizes Computer Vision algorithms for image processing and design recognition.
+Implements SIFT for robust feature extraction and matching.
+Developed with Python and integrates libraries such as OpenCV, NumPy, and Tkinter for image processing and user interface.
+Supports Print-On-Demand applications by facilitating the identification of specific designs.
+How to Use:
+
+Clone or download the repository to your local machine.
+Install the required dependencies mentioned in the requirements.txt file.
+Execute the program by running the executable file (program.exe).
+Follow the on-screen instructions to select the images and initiate the design recognition process.
